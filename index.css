@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Inter", serif;
+  background-color: #1C1C1C;
+  align-content: center;
+  justify-items: center;
+}
+
+.big-container{
+  width: 550px;
+  height: 729px;
+  background-color: #F4F4F4;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 2px solid #B295FF;;
+}
+
+.first-part{
+  background-color: #6943FF;
+  width: 550px;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1{
+    margin-top: 33px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  input{
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24.39px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+  }
+
+  button{
+    width: 117px;
+    height: 42px;
+    padding: 9px 27.5px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border: none;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3D3D3D;
+    margin-bottom: 34px;
+  }
+}
+
+.second-part{
+  width: 550px;
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box{
+  width: 500px;
+  height: 108.57px;
+  border-radius: 4.68px;
+  background-color: #FFFFFF;
+  text-align: center;
+  align-content: center;
+  margin-left: 25px;
+  margin-right: 25px;
+
+  h3{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #5A537B;
+    margin-top: 31px;
+    margin-bottom: 9px;
+  }
+
+  p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+    margin-top: 9px;
+    margin-bottom: 18.57px;
+  }
+}
+
